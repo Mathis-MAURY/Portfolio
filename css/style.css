@@ -566,24 +566,7 @@ body.dark-theme {
 
 .about__img {
     position: relative;
-    border: 4px solid var(--white-color);
     z-index: 1;
-}
-
-.about__shadow,
-.about__line,
-.about__box {
-    position: absolute;
-}
-
-.about__shadow {
-    width: 150px;
-    height: 358px;
-    background-color: var(--body-color);
-    top: -2.5rem;
-    right: -3.5rem;
-    border-bottom: 4px solid var(--first-color);
-    transition: background-color .4s;
 }
 
 .about__perfil .geometric-box {
